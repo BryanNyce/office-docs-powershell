@@ -1509,9 +1509,8 @@ Accept wildcard characters: False
 ### -TeamsWhoCanRecord
 The TeamsWhoCanRecord parameter controls who can record Teams meetings. Valid values are:
 
-- Organizer
-- Coorganizers
-- Presenters
+- Organizer,Coorganizers
+- Organizer,Presenters
 - $null (blank): Users configure this setting themselves in the Teams app.
 
 ```yaml
